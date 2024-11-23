@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+    background-image: url('background.jpg');
+}
+
+.header {
+    background-color: #0b413c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-decoration-color: rgb(62, 126, 54);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.education, .interests, .skills, .vision, .inspiration, .memory {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(138, 206, 218);
+    border-style: outset;
+    border-color: rgb(13, 126, 107);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(138, 206, 218);
+    border-style: outset;
+    border-color: rgb(13, 126, 107);
+}
+
+.about-text {
+    width: 60%; 
+}
+
+.photo {
+    width: 190px;
+    height: auto;
+    margin-left: 20px; 
+}
+
+
+.footer {
+    background-color: #1e302d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer .links a {
+    color: #0b7eac;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: small;
+}
+
+.footer p {
+    font-size: medium;
+    color: #ddd;
+    margin-top: 10px;
+}
